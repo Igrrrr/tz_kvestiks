@@ -1,7 +1,7 @@
 .header 
-  border: 1px solid red
+  //border: 1px solid red
   position: relative
-  padding: 8px 0
+  //padding: 8px 0
   top: 0
   left: 0
   right: 0
@@ -9,8 +9,8 @@
   /*background-color: #151515*/
 
   &__container
-    padding: 0 162px 
-    max-width: none
+    padding: 0 10rem 
+    //max-width: none
 
   &__login
     display: none
@@ -61,8 +61,17 @@ li a
 
 @media (max-width: 784px) 
   .header
+    //padding: 0
     position: fixed
-    padding: 10px
+    top: 0
+    left: 0
+    right: 0
+    z-index: 999
+    background-color: #ffffff
+
+    &__container
+      padding: 10px
+      width: 100vw
 
     &__logo-img
       width: 104px
@@ -113,19 +122,38 @@ li a
       top: 11px
   
 
-  .navigation__list
-    position: fixed
-    left: 0
-    right: 0
-    top: 0
-    bottom: 0
-    background-color: #151515
-    padding-top: 80px
-    z-index: -1
-    flex-direction: column
-    text-align: center
-    left: -100vw
-    right: 100vw
+  .navigation
+    //max-width: 90%
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    &__list
+      position: fixed
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-color: #F5F5F5
+      padding-top: 100px
+      padding-left: 0
+      z-index: -1
+      flex-direction: column
+      text-align: center
+
+      left: -100vw
+      right: 104vw
+
+    &__item
+      flex-direction: row
+      justify-content: center
+      gap: 10px
+     
+    
+    &__link
+      color: #5E5E5E
+      font-size: 1rem
 
   
 
