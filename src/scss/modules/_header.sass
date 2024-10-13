@@ -1,5 +1,5 @@
 .header 
-  //border: 1px solid red
+  
   position: relative
   //padding: 8px 0
   top: 0
@@ -11,6 +11,9 @@
   &__container
     padding: 0 10rem 
     //max-width: none
+
+  &__logo-img
+    width: 137px
 
   &__login
     display: none
@@ -26,6 +29,7 @@
 
   &__list
     margin-bottom: 0
+    padding-left: 0
     display: flex
     gap: 32px
     transition: .5s
@@ -70,7 +74,7 @@ li a
     background-color: #ffffff
 
     &__container
-      padding: 10px
+      //padding: 10px
       width: 100vw
 
     &__logo-img
@@ -123,8 +127,8 @@ li a
   
 
   .navigation
-    //max-width: 90%
-    margin: 0 auto
+    max-width: 90%
+    //margin: 0 auto
     display: flex
     align-items: center
     justify-content: space-between
@@ -143,7 +147,7 @@ li a
       text-align: center
 
       left: -100vw
-      right: 104vw
+      right: 100vw
 
     &__item
       flex-direction: row
@@ -158,6 +162,7 @@ li a
   
 
   #burger-toggle:checked ~ .navigation__list
+    top: -10px
     left: 0
     right: 0
   
