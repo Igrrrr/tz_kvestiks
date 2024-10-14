@@ -1,12 +1,10 @@
 .header 
-  
   position: relative
   //padding: 8px 0
   top: 0
   left: 0
   right: 0
   z-index: 999
-  /*background-color: #151515*/
 
   &__container
     padding: 0 10rem 
@@ -17,7 +15,6 @@
 
   &__login
     display: none
-
 
 .navigation
   margin: 0 auto
@@ -36,7 +33,6 @@
 
   &__item
     display: flex
-    
     flex-direction: column
     justify-content: space-between
     align-items: center
@@ -48,20 +44,16 @@
     color: black
     font-size: 10px
 
-
 li a 
   color: white
   text-decoration: none
   font-size: 18px
 
-
 .burger 
   display: none
 
-
 #burger-toggle 
   display: none
-
 
 @media (max-width: 784px) 
   .header
@@ -109,7 +101,6 @@ li a
 
     &__line
       top: 5px
-  
 
   #burger-toggle:checked ~ .burger
     &::after 
@@ -124,7 +115,6 @@ li a
     > .burger__line
       transform: rotate(-45deg)
       top: 11px
-  
 
   .navigation
     max-width: 90%
@@ -153,13 +143,10 @@ li a
       flex-direction: row
       justify-content: center
       gap: 10px
-     
     
     &__link
       color: #5E5E5E
       font-size: 1rem
-
-  
 
   #burger-toggle:checked ~ .navigation__list
     top: -10px

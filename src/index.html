@@ -16,11 +16,21 @@
   <div class="content">
     <div class="container">
       <div class="row">
-        <div class="col-12 md-col-9">
+        <div class="col-12 col-md-9">
           @@include('./html/description.html', {})
         </div>
-        <div class="col-3 d-none d-md-block">Price</div>
+        @@include("./html/sidebar.html", {})
       </div>
+      <!-- <div class="wrpr my-5 d-flex">
+        <div class="col-12 col-md-3 innr1 bg-warning">
+          <h2 class="tt1 bg-success">lor1</h2>
+          <span class="txt1 bg-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae repellendus fugit natus obcaecati doloribus maiores earum accusamus numquam recusandae. Vero pariatur sit dicta odit voluptatum quia repellat minima laudantium.</span>
+        </div>
+        <div class="col-12 col-md-9 innr2 bg-secondary">
+          <h2 class="tt2 bg-danger">lor2</h2>
+          <span class="txt2 bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum repudiandae repellendus fugit natus obcaecati doloribus maiores earum accusamus numquam recusandae. Vero pariatur sit dicta odit voluptatum quia repellat minima laudantium.</span>
+        </div>
+      </div> -->
     </div>
   </div>
 
