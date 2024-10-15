@@ -8,19 +8,24 @@
 // 	position: relative
 
 @import 'fonts'
+@import 'modules/button'
 @import 'modules/variables'
 @import 'modules/reset'
 //@import 'modules/bootstrap.min'
 @import 'modules/header'
+@import 'modules/breadcrumbs'
 @import 'modules/description'
 @import 'modules/content'
 @import 'modules/reviews'
 @import 'modules/sidebar'
+@import 'modules/slider'
 
 body
   font-family: OpenSans
   font-size: 16px
+  font-weight: 400
   color: $font-grey
+
 
 .wrapper
   //padding: 0 10rem
@@ -29,6 +34,19 @@ body
   background-color: yellowgreen
   display: flex
   flex-direction: row-reverse
+
+.content
+   background-color: $bg-desctop
+   padding-top: 32px
+
+@media(max-width: 767px)
+
+  .content
+    background-color: $bg-mobile
+
+
+
+
 
 
 
