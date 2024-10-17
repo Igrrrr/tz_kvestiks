@@ -11,15 +11,12 @@ const slider = new Splide("#slider", {
   flickMaxPages: 1,
   perPage: 3,
   arrows: false,
-  //pagination: false,
-  //gap: 24,
   breakpoints: {
     1199: {
       perPage: 2,
     },
     767: {
       perPage: 1,
-      //pagination: true,
     },
   },
 });
@@ -43,7 +40,7 @@ const setReviews = () => {
     raiting.className = "splide__slide-raiting";
     for (let i = 0; i < el.raiting; i++) {
       let raitingStar = document.createElement("img");
-      raitingStar.src = "../img/star.svg";
+      raitingStar.src = "./img/star.svg";
       raiting.append(raitingStar);
     }
     slide.append(raiting);
