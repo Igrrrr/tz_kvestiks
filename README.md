@@ -12,9 +12,9 @@
 ###### Yarn: ```npm i -g yarn```
 ###### Gulp: ```npm i -g gulp```
 
-######  скачайте сборку с помощью Git:  ```git clone https://github.com/Igrrrr/kvestiks```
+######  скачайте сборку с помощью Git:  ```git clone https://github.com/Igrrrr/tz_kvestiks```
 
-###### перейдите в скачанную папку со сборкой: ```cd kvestiks```
+###### перейдите в скачанную папку со сборкой: ```cd tz_kvestiks```
 
 ###### установите необходимые зависимости: ```yarn``` (или ```npm i```)
 
